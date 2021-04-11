@@ -44,7 +44,7 @@ file {'/tmp/it_works.txt':
 	content => "It works on ${ipaddress_eth0!}\n",
     }
 
-
+It's just to thw update works
 sudo systemctl restart puppet-master
 
 
